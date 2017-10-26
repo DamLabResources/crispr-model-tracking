@@ -1,6 +1,6 @@
-x = 3
+import numpy as np
+for x in range(16):
+    a = np.random.random_integers(5)
 
-if x == 2 or 3:
-    print(x)
-else:
-    print("NOPE")
+    print(a)
+

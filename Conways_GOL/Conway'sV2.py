@@ -1,5 +1,5 @@
 import time
-from Tkinter import *
+from tkinter import *
 
 master = Tk()
 WW = Canvas(master, width=600, height=600)
